@@ -24,7 +24,7 @@
             messageOne.textContent = data.error
 
             } else {
-                messageOne.textContent = data.Location
+                messageOne.textContent = data.Location, data.latitude
                 messageTwo.textContent = data.forecast
             console.log(data.Location)
             console.log(data.forecast)
